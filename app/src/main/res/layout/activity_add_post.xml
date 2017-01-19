@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.blog.firebase.blogappfirebase_based.MainActivity"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <ImageButton
+        android:id="@+id/ib_select_post_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/add_btn"
+        android:contentDescription="@string/button_add_post"
+        android:elevation="1dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/post_title"
+        android:id="@+id/et_post_title"
+        android:background="@drawable/input"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:elevation="11dp" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/post_content"
+            android:id="@+id/et_post_description"
+            android:background="@drawable/input"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="top|left"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:textColor="@color/primary_text"
+        android:elevation="11dp" />
+
+    <Button
+        android:text="@string/add_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_add_post"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:elevation="12dp" />
+</LinearLayout>
+

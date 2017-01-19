@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Blog app (firebase-based)</string>
+    <string name="add_quote">add quote</string>
+    <string name="settings">settings</string>
+    <string name="post_title">Post Title</string>
+    <string name="post_content">enter content description here..</string>
+    <string name="button_add_post">button add post</string>
+    <string name="add_post">add post</string>
+    <string name="logout">logout</string>
+</resources>
